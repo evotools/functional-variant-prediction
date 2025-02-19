@@ -37,10 +37,7 @@ For more details on different hyper-parameters, refer to the [CatBoost documenta
 
 An example command-line for running the pipeline:
 ```sh
-python machine_learning_pipeline.py --data_path variant_features \
-									--param_space example_params_search_space \
-									--model_output_path trained_model.cbm \
-									--test_chromosomes chr1 
+python machine_learning_pipeline.py --data_path variant_features --param_space example_params_search_space --model_output_path trained_model.cbm --test_chromosomes chr1 
 ```
 **Additional parameters**
 **Training and Testing Data**
