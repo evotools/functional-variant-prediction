@@ -40,10 +40,5 @@
     "type": "Integer",
     "low": 100,
     "high": 2000
-  },
-  "scale_pos_weight": {
-    "type": "Real",
-    "low": 5,
-    "high": 15
   }
 }
