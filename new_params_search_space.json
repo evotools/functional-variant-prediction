@@ -1,0 +1,49 @@
+{
+  "learning_rate": {
+    "type": "Real",
+    "low": 1e-3,
+    "high": 1e-2,
+    "prior": "log-uniform"
+  },
+  "depth": {
+    "type": "Integer",
+    "low": 4,
+    "high": 10
+  },
+  "l2_leaf_reg": {
+    "type": "Real",
+    "low": 1e-3,
+    "high": 10,
+    "prior": "log-uniform"
+  },
+  "iterations": {
+    "type": "Integer",
+    "low": 1000,
+    "high": 6000
+  },
+  "border_count": {
+    "type": "Integer",
+    "low": 32,
+    "high": 128
+  },
+  "random_strength": {
+    "type": "Real",
+    "low": 0.5,
+    "high": 3.0
+  },
+  "bagging_temperature": {
+    "type": "Real",
+    "low": 0.0,
+    "high": 1.0
+  },
+  "early_stopping_rounds": {
+    "type": "Integer",
+    "low": 100,
+    "high": 2000
+  },
+  "scale_pos_weight": {
+    "type": "Real",
+    "low": 5,
+    "high": 15
+  }
+}
