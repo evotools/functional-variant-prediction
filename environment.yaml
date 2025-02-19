@@ -1,0 +1,16 @@
+name: catboost_ml
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - catboost
+  - scikit-optimize
+  - shap
+  - pip
+  - pip:
+      - scikit-optimize
