@@ -235,7 +235,7 @@ def generate_roc_curves(trained_model, X_train, y_train, X_test, y_test, best_pa
     # Choose cross-validation method
     if cv_strategy == "group":
         # Chromosome-level cross-validation
-        cv = GroupKFold(n_splits=max(2, min(len(train_chromosomes), 5)))
+        cv = GroupKFold(n_splits=max(2, min(len(train_chromosomes), args.n_groups)))
         groups = train_data['chrom']  # Use chromosome as groups
         cv_splits = cv.split(X_train, y_train, groups=groups)
         cv_type_label = "Chromosome-Level CV"
