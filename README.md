@@ -83,7 +83,7 @@ python machine_learning_pipeline.py --data_path variant_features --param_space e
 - `--roc_output` – Specify the output file name for **ROC curves** (default: `"roc_curves.png"`).
 
 
-It is recommended to run hyper-parameter tuning using GPUs, as this significantly improves training efficiency. For reference, we trained our cattle cross-tissues model using the GPU service from **Edinburgh international data facility** ([EIDF](https://edinburgh-international-data-facility.ed.ac.uk/services/computing/gpu-service)). With two NVIDIA A100 GPUs, it took approximately 48 hours to complete 50 iterations of hyper-paramter tuning.
+It is recommended to run hyper-parameter tuning using **GPUs**, as this significantly improves training efficiency. For reference, we trained our cattle cross-tissues model using the **GPU service** from **Edinburgh international data facility** ([EIDF](https://edinburgh-international-data-facility.ed.ac.uk/services/computing/gpu-service)). With two NVIDIA A100 GPUs, it took approximately 48 hours to complete 50 iterations of hyper-paramter tuning.
 
 ### 4. Save and use the trained model
 The trained model will be stored at the path specified by `--model_output_path`. If you want to apply the trained model to other variant sets, you can load the model and encode the features of the new variant set based on the encoded training data. We have provdied cattle tissue-specific and cross-tissues models trained on cattle GTEx data. These models can be downloaded here: [https://doi.org/10.5281/zenodo.14901001]. To load the model, simply use the following Python code:
