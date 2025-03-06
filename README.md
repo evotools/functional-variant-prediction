@@ -12,7 +12,7 @@ If you don’t have Conda installed, download and install [Miniconda](https://do
 Run the following command in your terminal to create the Conda environment:
 
 ```sh
-conda env create -f environment.yml
+conda env create -f environment.yaml
 ```
 ## 🚀 Usage
 
