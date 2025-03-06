@@ -9,7 +9,6 @@ dependencies:
   - scikit-learn
   - matplotlib
   - catboost
-  - scikit-optimize
   - shap
   - pip
   - pip:
