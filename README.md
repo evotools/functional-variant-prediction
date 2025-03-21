@@ -1,5 +1,5 @@
 # functional-variant-prediction
-A machine learning pipeline using Catboost to predict functional variants.
+A machine learning pipeline using CatBoost to predict functional variants. If you use or modify this pipeline, please cite the following paper: https://doi.org/10.1101/2024.08.01.606140
 
 ## 📦 Environment Setup
 
