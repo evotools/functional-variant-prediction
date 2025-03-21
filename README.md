@@ -31,8 +31,6 @@ Make sure you have prepared features for the variants from the [variant annotati
 ### 3. Run the Pipeline
 The pipeline script supports customization through command-line arguments. An example JSON file defining the hyperparameter search space is provided as **example_params_search_space.json**. This can be adjusted based on your specific use case.  
 
-For example, when training on a dataset with highly imbalanced foreground and background data, you can include a search space for **scale_pos_weight** to help address class imbalance.  
-
 For more details on different hyper-parameters, refer to the [CatBoost documentation](https://catboost.ai/en/docs/references/training-parameters/).
 
 An example command-line for running the pipeline:
